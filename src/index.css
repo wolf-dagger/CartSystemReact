@@ -9,3 +9,15 @@ body {
   color: aliceblue;
   font-family: sans-serif;
 }
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 2px; /* remove scrollbar space /
+  background: transparent; / optional: just make scrollbar invisible /
+  / optional: show position indicator in red */
+}
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}

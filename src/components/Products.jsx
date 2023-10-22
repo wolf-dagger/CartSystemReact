@@ -34,6 +34,7 @@ const Products = () => {
             flexDirection: "row",
             flexWrap: "wrap",
             alignItems: "stretch",
+            justifyContent: "center",
           }}
         >
           {products.map((item, index) => (
